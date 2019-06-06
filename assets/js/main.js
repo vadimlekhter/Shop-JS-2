@@ -4,12 +4,12 @@ $(document).ready(() => {
         autoplay: true
     });
 
-   //Корзина
-    let mycart = new Cart('assets/js/getCart.json');
+//Корзина
+let mycart = new Cart('assets/js/getCart.json');
 
-    //Товары
-    let product = new Product ('assets/js/product.json', mycart);
+//Товары
+let product = new Product ('assets/js/product.json', mycart);
 
-    let admin = new Admin('assets/js/feedback.json');
+let admin = new Admin('assets/js/feedback.json');
 
 });
